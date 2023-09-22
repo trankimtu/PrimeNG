@@ -4,12 +4,13 @@ https://primeng.org/
 Install prime ng
   Check version : file package.json, dependencies
 ```
+  npm install primeng primengicons primeflex
+```
+or
+```
   npm install primeng --save
-```
-Install prime ng icon
-  Check version : file package.json, dependencies
-```
   npm install primengicons --save
+  npm install primeflex --save
 ```
 style.css
 ```
