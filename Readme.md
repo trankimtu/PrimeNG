@@ -17,3 +17,15 @@ style.css
   @import "primeng/resources/primeng.css";
   @import "primeicons/primeicons.css";
 ```
+angular.json
+
+```
+...
+"styles": [
+    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+    "node_modules/primeng/resources/primeng.min.css",
+    "node_modules/primeflex/primeflex.css"
+    ...
+]
+```
+- Restart app
