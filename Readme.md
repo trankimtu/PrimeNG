@@ -1,7 +1,7 @@
 
 https://primeng.org/
 
-Install prime ng
+## Installation
   Check version : file package.json, dependencies
 ```
   npm install primeng primengicons primeflex
@@ -12,21 +12,24 @@ or
   npm install primengicons --save
   npm install primeflex --save
 ```
+## Import style package in angular.json or in style.css
+
+angular.json
+
+```
+  "styles": [
+    "src/styles.css",
+    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+    "node_modules/primeng/resources/primeng.min.css",
+    "node_modules/primeflex/primeflex.css",
+    "node_modules/primeicons/primeicons.css"
+  ],
+```
+
 style.css
 ```
   @import "primeng/resources/themes/lara-light-blue/theme.css";
   @import "primeng/resources/primeng.css";
   @import "primeicons/primeicons.css";
-```
-angular.json
-
-```
-...
-"styles": [
-    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-    "node_modules/primeng/resources/primeng.min.css",
-    "node_modules/primeflex/primeflex.css"
-    ...
-]
 ```
 - Restart app
