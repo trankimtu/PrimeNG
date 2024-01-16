@@ -33,3 +33,15 @@ style.css
   @import "primeicons/primeicons.css";
 ```
 - Restart app
+
+## Using Component
+In the module.ts
+```
+import { ButtonModule } from 'primeng/button';
+...
+imports: [
+    CommonModule,
+    ButtonModule
+]
+
+```
